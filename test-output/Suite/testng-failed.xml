@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.Roopkala.utilities.ListnerUtility"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.Roopkala.AUTOTEST.currencyTEST">
+        <methods>
+          <include name="openReport"/>
+          <include name="Currency"/>
+          <include name="teardown"/>
+          <include name="chrome"/>
+        </methods>
+      </class> <!-- com.Roopkala.AUTOTEST.currencyTEST -->
+      <class name="com.Roopkala.AUTOTEST.cartTEST">
+        <methods>
+          <include name="openReport"/>
+          <include name="teardown"/>
+          <include name="Cart"/>
+          <include name="chrome"/>
+        </methods>
+      </class> <!-- com.Roopkala.AUTOTEST.cartTEST -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

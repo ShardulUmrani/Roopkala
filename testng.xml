@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	<listeners>
+	<listener class-name="com.Roopkala.utilities.ListnerUtility"></listener>
+	 
+</listeners>
+	
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.Roopkala.AUTOTEST.LehengasDropdownTEST"/>
+      <class name="com.Roopkala.AUTOTEST.cartTEST"/>
+      <class name="com.Roopkala.AUTOTEST.SalwarKameezDropdownTEST"/>
+      <class name="com.Roopkala.AUTOTEST.LoginTEST"/>
+      <class name="com.Roopkala.AUTOTEST.DashboardpageTEST"/>
+      <class name="com.Roopkala.AUTOTEST.SareesDropdownTEST"/>
+      <class name="com.Roopkala.AUTOTEST.KurtaSetsDropDownTEST"/>
+      <class name="com.Roopkala.AUTOTEST.CollectionsDropdownTEST"/>
+      <class name="com.Roopkala.AUTOTEST.currencyTEST"/>
+      <class name="com.Roopkala.AUTOTEST.GownsDropdownTEST"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
